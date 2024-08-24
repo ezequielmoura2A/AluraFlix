@@ -12,6 +12,14 @@ img:hover {
     transform: scale(1.1);
 }
 
+.color{
+    color: black;
+}
+
+.titulo{
+    color: black;
+}
+
 .aranha{
     margin-top: 60px;
     font-size: 21px;
