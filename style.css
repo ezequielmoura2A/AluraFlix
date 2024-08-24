@@ -18,6 +18,8 @@ img:hover {
 
 .videos4{
     display: flex;
+    overflow-x:auto;
+    gap: 1px;
 }
 
 .verso{
