@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(255, 255, 0, 0.808);
 }
 
 img {
@@ -16,10 +16,35 @@ img:hover {
     color: black;
 }
 
+.videos4{
+    display: flex;
+}
+
+.verso{
+    max-width: 400px
+}
+
+.loki{
+    margin-left: 60px;
+    max-width: 300px
+    
+}
+
+.wolverine{
+    max-width: 350px
+}
+
+.deadpool{
+    margin-left: 60px;
+    max-width: 300px
+    
+}
+
 .aranha{
     margin-top: 60px;
-    font-size: 21px;
+    font-size: 20px;
     color: black;
+    margin-left: 100px;
     h2{
         margin-top: 20px;
         margin-left: 10px;
