@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
 }
 
 img {
@@ -10,10 +10,6 @@ img {
 
 img:hover {
     transform: scale(1.1);
-}
-
-.color{
-    color: black;
 }
 
 .titulo{
