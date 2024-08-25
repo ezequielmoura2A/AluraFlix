@@ -5,15 +5,10 @@ body{
 
 img {
     transition: transform 0.3s ease;
-
 }
 
 img:hover {
     transform: scale(1.1);
-}
-
-.titulo{
-    color: black;
 }
 
 .videos4{
@@ -27,17 +22,18 @@ img:hover {
 }
 
 .loki{
-    margin-left: 60px;
+    padding-left: 20px;
     max-width: 300px
     
 }
 
 .wolverine{
+    padding-left: 4px;
     max-width: 350px
 }
 
 .deadpool{
-    margin-left: 60px;
+    padding-left: 20px;
     max-width: 300px
     
 }
@@ -45,7 +41,6 @@ img:hover {
 .aranha{
     margin-top: 60px;
     font-size: 20px;
-    color: black;
     margin-left: 100px;
     h2{
         margin-top: 20px;
@@ -100,7 +95,7 @@ header{
 }
 
 .embaixopag001{
-    margin-top: 60px;
+    margin-top: 54px;
     color: white;
     font-family: fantasy;
     font-size: 50px;
@@ -109,14 +104,18 @@ header{
 }
 
 .pag001{
-    margin-left: 400px;
-    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
 }
 
-.voltar{
-    width: 120px; height: 120px;
-    margin-left: 900px;
-    margin-top: 30px;
+.voltarcenter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .recomendados{
