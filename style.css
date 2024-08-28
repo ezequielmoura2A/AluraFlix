@@ -145,7 +145,7 @@ header{
         padding-bottom:0px;
         padding-left: 1px;
         margin-bottom: none;
-        width: 300px; height: 230px;
+        width: 340px; height: 230px;
     }
 
     .titulomobile{
@@ -164,7 +164,14 @@ header{
         font-size: 32px;
     }
     
+    .voltarcenter{
+        margin-bottom: 100px;
 
+    }
+
+    .videos4mobile{
+        width:225px ; height:125px ;
+    }
 
     .recomendados{
         font-size: 32px;
@@ -185,8 +192,12 @@ header{
     }
 
     .pag001{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
         iframe{
-        width: 300px; height: 250px;
+        width: 350px; height: 250px;
     }
     }
 
@@ -201,19 +212,46 @@ header{
         margin-bottom: none;
         width: 400px; height: 250px;
     }
-        .videoinicial2{
+    .videoinicial2{
             margin-bottom: 170px;
     }
+    
+    
 
     .embaixopag001{
         font-size: 32px;
+        margin-top: 100px;
+    }
+
+    .verso{
+        max-width: 300px
+        
+    }
+    
+    .loki{
+        padding-left: 20px;
+        max-width: 300px
+        
+    }
+    
+    .wolverine{
+        padding-left: 4px;
+        max-width: 350px
+    }
+    
+    .deadpool{
+        padding-left: 20px;
+        max-width: 300px
+        
     }
 
     .aranha{
         margin-top: none;
-        font-size: none;
-        margin-left: none;
+        font-size: 15px;
+    
+        margin-right: 50px;
         h2{
+            
             margin-top: 20px;
             margin-left: 10px;
         }
