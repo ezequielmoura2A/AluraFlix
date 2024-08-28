@@ -41,7 +41,7 @@ img:hover {
 .aranha{
     margin-top: 60px;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 30px;
     h2{
         margin-top: 20px;
         margin-left: 10px;
@@ -125,4 +125,82 @@ header{
     border-top: solid 2px white;
     background-color: black;
     text-align: left;
+}
+
+@media (min-width: 600px) {
+    .videomobile{
+        display: none;
+    }
+    .titulomobile{
+        display: none;
+    }
+    .descricaomobile{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .videomobile{
+        padding-top: 20px;
+        padding-bottom:0px;
+        padding-left: 23px;
+        margin-bottom: none;
+        width: 400px; height: 250px;
+    }
+
+    .titulomobile{
+        
+        text-align: center;
+        font-family: fantasy;      
+        padding-bottom: 30px;
+    }
+
+    .descricaomobile{
+        font-size: 24px;
+        padding-bottom: 100px
+    }
+
+    header{
+        color: white;
+        font-family: fantasy;
+        font-size: 50px;
+        text-align: center;
+        border-bottom: solid 2px white;
+        background-color: black;
+    }
+    
+    .pag001{
+        iframe{
+        width: 10px; height: 10px;
+    }
+    }
+
+    .videoinicial{
+        display:none;
+        align-items: none;
+        gap: none;
+        margin-left: none;
+    }
+    .videoinicial2{
+        margin-top: 100px;
+        margin-bottom: none;
+        width: 400px; height: 250px;
+    }
+        .videoinicial2{
+            margin-bottom: 170px;
+    }
+    
+
+    .aranha{
+        margin-top: none;
+        font-size: none;
+        margin-left: none;
+        h2{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        font-family: fantasy;
+
+    }
+    
 }
